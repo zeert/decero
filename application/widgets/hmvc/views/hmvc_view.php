@@ -1,0 +1,1 @@
+<h2>Esta es una prueba de HMVC</h2>

@@ -26,7 +26,23 @@ $config['base_url']	= '';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php';
+$config['index_page'] = '';
+
+/*
+|--------------------------------------------------------------------------
+| Configuracion de MHVC
+|--------------------------------------------------------------------------
+| 
+| Esta es la configuracion base de HMVC 
+| En esta ocacion, yo lo nombre como Widgets para evitar la confusion con
+| Models.
+|
+*/
+$config['modules_locations'] = array(
+    APPPATH.'widgets/'=> '../widgets/',
+);
+
+
 
 /*
 |--------------------------------------------------------------------------
